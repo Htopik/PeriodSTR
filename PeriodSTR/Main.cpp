@@ -14,6 +14,7 @@ bool IsKPeriodic(string str, int k) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Russian");
     //Произведён ряд тестов
     cout << IsKPeriodic("abcabcabcabc", 3) << '\n';
     cout << IsKPeriodic("abcabcabcabc", 2) << '\n';
